@@ -36,7 +36,7 @@
 * **需求**：爬取36kr旗下的鲸准创投网站的创投企业详情，并对数据清洗后写入mongodb，进行数据分析、可视化
 * **说明**：由于网页版的爬虫需要身份认证后才能爬取到企业信息，所以把目标转向客户端，我这里用的时创投助手这个app，需要登陆后用抓包工具charles进行分析url，发现虽然需要登陆，但是返回数据的url不需要cookie就可以访问，所以直接访问抓取就好了。
 * **用法**：```scrapy crawl Jingzhun_36kr```
-* **成果**：
+* **数据可视化**：
 ![address](https://github.com/Mrrrrr10/Scrapy_Spider/blob/master/Data_Analysis/Jingzhun_36kr/address.png)
 ![企业分布](https://github.com/Mrrrrr10/Scrapy_Spider/blob/master/Data_Analysis/Jingzhun_36kr/%E4%BC%81%E4%B8%9A%E5%88%86%E5%B8%83.png)
 ![投资轮数](https://github.com/Mrrrrr10/Scrapy_Spider/blob/master/Data_Analysis/Jingzhun_36kr/%E5%B1%9E%E4%BA%8E%E4%BC%81%E4%B8%9A%E6%9C%8D%E5%8A%A1%E7%B1%BB%E5%9E%8B%E7%9A%84%E6%8A%95%E8%B5%84%E8%BD%AE%E6%95%B0.png)
